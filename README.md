@@ -83,3 +83,23 @@ e 2 3 2
 -v 2 1
 -e 0 1 0
 ```
+
+##  Datasets
+
+We provide 4 datasets in our experiment 
+
+1. Amazon dataset        [[link](https://snap.stanford.edu/data/com-Amazon.html)]
+2. Livejournal dataset   [[link](https://snap.stanford.edu/data/soc-LiveJournal1.html)]
+3. LSBench dataset       [[link](https://code.google.com/archive/p/lsbench/)]
+4. Netflow dataset       [[link](https://catalog.caida.org/dataset/passive\_2013\_pcap)]
+
+
+
+**Summary of Datasets**
+
+| **Datasets** |         **Type**        | **Vertexes** |  **Edges**  | **Average Degree** |
+| :----------: |    :-----------------:  | :----------: | :---------: | :----------------: |
+|    Amazon    |     Product network     |    403,394   |  2,433,408  |       12.06        |
+|  Livejournal |    Community network    |   4,847,571  | 42,841,237  |       17.68        |
+|   LSBench    | Benchmark data generator|   5,210,099  | 20,270,676  |       7.78         |
+|   Netflow    |     Network traffic     |   3,114,895  |  2,849,732  |       1.83         |
